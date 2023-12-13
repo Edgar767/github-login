@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column; /* Añadido flex-direction */
+}
+
+.login-container {
+    background-color: #161b22; /* Fondo oscuro para el contenedor de inicio de sesión */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px
+}
+
+img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Alineación a la izquierda para el formulario */
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #586069; /* Borde gris */
+    border-radius: 3px;
+    background-color: #0d1117; /* Fondo oscuro para el input */
+    color: #c9d1d9; /* Color de texto para el input */
+}
+
+button {
+    padding: 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.create-account-container {
+    margin-top: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: #58a6ff; /* Color del enlace */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #0d1117;
+    color: #8b949e;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    /* justify-content: space-between; Eliminado para permitir que el footer se ajuste correctamente */
+}
+
+.footer-links a {
+    margin-right: 20px;
+    color: #8b949e;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social a {
+    margin-bottom: 10px; /* Agregado margen inferior para separar los enlaces */
+    color: #8b949e;
+    text-decoration: none;
+    font-size: 14px; /* Tamaño de fuente reducido */
+}
+
+.footer-social a:hover {
+    color: #58a6ff;
+}
